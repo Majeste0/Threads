@@ -1,9 +1,24 @@
 {
-  "dependencies": {
-    "@clerk/nextjs": "^4.23.3",
-    "@uploadthing/react": "^5.5.0",
-    "mongoose": "^7.5.0",
-    "svix": "^1.10.0",
-    "uploadthing": "^5.5.0"
-  }
+    "name": "threads",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@clerk/nextjs": "^4.23.3",
+        "@uploadthing/react": "^5.5.0",
+        "autoprefixer": "^10.4.15",
+        "mongoose": "^7.5.0",
+        "svix": "^1.10.0",
+        "tailwindcss-animate": "^1.0.7",
+        "uploadthing": "^5.5.0"
+    },
+    "devDependencies": {
+        "@types/react": "18.2.21",
+        "typescript": "5.2.2"
+    }
 }
